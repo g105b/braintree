@@ -1,0 +1,19 @@
+{
+    "name": "g105b/braintree",
+    "require": {
+        "braintree/braintree_php": "^3.8",
+        "symfony/console": "^3.0",
+        "symfony/config": "^3.0"
+    },
+    "authors": [
+        {
+            "name": "Greg Bowler",
+            "email": "greg.bowler@g105b.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Ablewild\\": "./class/"
+        }
+    }
+}
